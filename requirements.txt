@@ -1,0 +1,28 @@
+
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+tqdm
+matplotlib
+seaborn
+pillow
+opencv-python
+
+# Deep learning
+torch
+torchvision
+
+# Fairness, logging & metrics
+wandb
+
+# Face analysis / verification
+deepface
+mtcnn
+
+# Diffusion-based augmentation
+diffusers
+transformers
+accelerate
+safetensors
