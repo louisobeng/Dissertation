@@ -100,7 +100,7 @@ for dataset, model, path in models_info:
             })
 
     except Exception as e:
-        print(f"⚠️ {dataset}-{model}: {e}")
+        print(f" {dataset}-{model}: {e}")
 
 final_df = pd.DataFrame(rows)
 
