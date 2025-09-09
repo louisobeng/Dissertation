@@ -41,13 +41,45 @@ Dissertation/
 │   ├── Generated_Image_Samples/       # First-round generated synthetic images
 │   ├── Second_Augmentation/           # Second augmentation iteration
 │   │   ├── CKPLUS_Features_20250805_111308_faceprefixed_CLEAN11.csv # Augmented CSV
-│   │   └── train/                     # Augmented training set
+│   │   ├── train/                     # Augmented training set
+│   │   ├── val/                       # Augmented validation set
+│   │   └── test/                      # Augmented test set
 │
 ├── results/                           # Experimental outputs
 │   ├── fairness_result_HeatMaps/      # Heatmap dashboards of bias metrics
 │   │   └── fairness_dashboard_Second_Aug_result.pdf
-│   └── basic_Training_results/        # Baseline training results
-│       └── baseline/
+│   └── basic_Training_results/        # Model training & evaluation results
+│       ├── baseline/                  # Baseline CNN (HACNN)
+│       │   ├── train_val_accuracy.png
+│       │   ├── train_val_loss.png
+│       │   ├── confusion_matrix_train.png
+│       │   ├── confusion_matrix_val.png
+│       │   ├── confusion_matrix_test.png
+│       │   ├── ckplus_emotion_roc.png
+│       │   ├── ckplus_fairness_table.csv
+│       │   ├── fairness_dashboard.pdf
+│       │   └── Classification Report.pdf
+│       │
+│       ├── MobileNet_V3/              # MobileNet-V3 results
+│       │   ├── train_val_accuracy.png
+│       │   ├── train_val_loss.png
+│       │   ├── confusion_matrix_train.png
+│       │   ├── confusion_matrix_val.png
+│       │   ├── confusion_matrix_test.png
+│       │   ├── ckplus_emotion_roc.png
+│       │   ├── ckplus_fairness_table.csv
+│       │   ├── fairness_dashboard.pdf
+│       │   └── Classification Report.pdf
+│       │
+│       └── EfficientNet_B2/           # EfficientNet-B2 results
+│           ├── train_val_accuracy.png
+│           ├── train_val_loss.png
+│           ├── confusion_matrix_train.png
+│           ├── confusion_matrix_val.png
+│           ├── confusion_matrix_test.png
+│           ├── ckplus_emotion_roc.png
+│           ├── ckplus_fairness_table.csv
+│           ├── fairness_dashboard.pdf
 │           └── Classification Report.pdf
 │
-└── README.md                          # This file
+└── README.md                          # Project overview & instructions
