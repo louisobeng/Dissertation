@@ -1,5 +1,5 @@
 # Dissertation
-Code, results and experiments for my MSc dissertation on Emotion & Gender Recognition
+Code, results and experiments for my MSc dissertation on Human Emotion & Gender Recognition
 
 Fairness-Aware Facial Emotion Recognition
 
